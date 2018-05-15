@@ -6762,8 +6762,10 @@ body{
 html, body, head, header{
     background-color: black;
 }
-h1,h2,h4,h7,h8,h9{
-  color:white;
+h1,h2,h4,h7,h8,h9,P{
+  color:#edeef0;
+  -webkit-text-stroke-width: 0.4px;
+  -webkit-text-stroke-color: black;
 }
 body{
 	font-family: "Marker Felt", "Comic Sans MS", fantasy;
@@ -6800,3 +6802,33 @@ body:after {
 			visibility: visible;
 			opacity: 1;
 		}
+		
+/* Testing */
+
+p {
+  margin-left:20px;
+  margin-right: 20px;
+  margin-top:20px;
+  margin-bottom:20px;
+  text-size:200%;
+}
+
+header{
+  margin-top:20px;
+  margin-bottom:20px;
+  margin-left:-20px;
+  margin-right:-20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
