@@ -4095,7 +4095,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
-  color: black;
+  color: #181d29;
   background-color: white;
 }
 .nav-stacked > li {
@@ -6754,29 +6754,57 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
-body{
-    background-image: url("/entrepreneurship/images/mountain.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
+/*# Changes by Leo */
 html, body, head, header{
     background-color: black;
 }
-h1,h2,h4,h7,h8,h9,P{
+h1,h7,h8,h9,P{
+  color:#edeef0;
+  -webkit-text-stroke-width: 0.4px;
+  -webkit-text-stroke-color: white;
+}
+h2{
+  font-size: 40px;
   color:#edeef0;
   -webkit-text-stroke-width: 0.4px;
   -webkit-text-stroke-color: black;
 }
+h4{
+  font-size: 25px;
+  color:white;
+  -webkit-text-stroke: 1px black;
+  margin-left:40px;
+  margin-right: 40px;
+  margin-top:40px;
+  margin-bottom:40px;
+}
+ul{
+  font-size: 25px;
+  color:#edeef0;
+  -webkit-text-stroke: 1px black;
+  margin-left:40px;
+  margin-right: 40px;
+  margin-top:40px;
+  margin-bottom:40px;
+}
 body{
-	font-family: "Marker Felt", "Comic Sans MS", fantasy;
+	font-family: "Marker Felt", "verdana", fantasy;
 	color: black;
 	text-shadow: 1px 1px #5e697a;
 	background-color: transparent;
 }
-
+.thumbnail:hover {
+    position:relative;
+    top:-10px;
+    left:-10px;
+    width:-10px;
+    height:-10px;
+    display:block;
+    z-index:999;
+}
+/*# Changes by Leo */
 
 /* Inspired by Templated */
-
 body:after {
 			-moz-pointer-events: none;
 			-webkit-pointer-events: none;
@@ -6802,15 +6830,19 @@ body:after {
 			visibility: visible;
 			opacity: 1;
 		}
-		
-/* Testing */
+/* Inspired by Templated */
 
+/*# Changes by Leo */
 p {
-  margin-left:20px;
-  margin-right: 20px;
-  margin-top:20px;
-  margin-bottom:20px;
-  text-size:200%;
+  font-size: 20px;
+  color:#edeef0;
+  -webkit-text-stroke-width: 0.7px;
+  -webkit-text-stroke-color: black;
+  margin-left:40px;
+  margin-right: 40px;
+  margin-top:40px;
+  margin-bottom:40px;
+  
 }
 
 header{
@@ -6820,15 +6852,9 @@ header{
   margin-right:-20px;
 }
 
+center{
+  font-style: bold;
+  font-size:30px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+/*# Changes by Leo */
